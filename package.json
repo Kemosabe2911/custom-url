@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Kemosabe2911/custom-url/issues"
   },
-  "homepage": "https://github.com/Kemosabe2911/custom-url#readme"
+  "homepage": "https://github.com/Kemosabe2911/custom-url#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
