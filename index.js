@@ -3,6 +3,10 @@ const path = require('path');
 
 const app = express();
 
+//app.get('/', (req,res)=>{
+//    res.send(`<h1>Hello World?</h1>`);
+//});
+
 //Static Folder
 app.use(express.listen(path.join(__dirname,'public')));
 
