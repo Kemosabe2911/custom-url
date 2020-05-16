@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background-color: #000000;
+    background: url('https://cdn.miscellaneoushi.com/1920x1200/20121018/minimalistic%20black%20background%20wallbase%20qr%20codes%201920x1200%20wallpaper_www.miscellaneoushi.com_73.jpg') no-repeat;
+}
+.container{
+    
+}
