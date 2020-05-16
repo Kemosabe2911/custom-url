@@ -18,7 +18,7 @@ body{
     margin-top: 2em;
 }
 .container .logo{
-    font-size: 2.5em;
+    font-size: 2.8em;
     text-transform: uppercase;
     padding: 5px;
     font-family: 'Ubuntu', sans-serif;
@@ -56,6 +56,7 @@ body{
     height: 350px;
     background: #ffffff;
     margin-top: 2em;
+    border-radius: 10px;
 }
 .container #res img{
     width: 350px;
@@ -67,6 +68,7 @@ body{
     .container #res{
         width: 500px;
         height: 500px;
+        border-radius: 10px;
     }
     .container #res img{
         width: 500px;
