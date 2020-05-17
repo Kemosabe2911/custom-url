@@ -1,6 +1,7 @@
 const a= document.getElementById('btn');
 const b= document.getElementById('data');
 const res= document.getElementById('res');
+const axios= require('axios');
 
 a.addEventListener('click',showResult);
 
