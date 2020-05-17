@@ -1,5 +1,5 @@
 # Custom QR
-A URL generating website.
+A QR code generating website for the specified data.
 
 Used express, axios etc..
 
