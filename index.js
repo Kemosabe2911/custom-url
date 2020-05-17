@@ -3,14 +3,19 @@ const axios = require("axios");
 const path= require('path');
 const app = express();
 
+/*app.get('/', ( req , res) =>{
+    console.log('Calling app.get');
+    res.send('<h1>Hello World</h1>');
+});*/
+
 //Static Folder
-//  app.use(express.static(path.join(__dirname,'public','index.html')));
+ app.use(express.static(path.join(__dirname,'public')));
 
-app.get('/', (req,res)=>{
-    res.sendFile(path.join(__dirname,'public','index.html'));
-});
+   /* app.get('/', (req,res)=>{
+        res.sendFile(path.join(__dirname,'public','index.html'));
+    });
 
-   /* app.get('/', ( req , res) =>{
+    /*app.get('/', ( req , res) =>{
         console.log('Calling app.get');
         res.send('<h1>Hello World</h1>');
     });*/
